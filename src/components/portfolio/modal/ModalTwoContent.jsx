@@ -49,14 +49,7 @@ const ModalTwoContent = () => {
         {/* Project Details Ends */}
 
         {/*  Main Project Content Starts */}
-        <div className="videocontainer">
-          <iframe
-            className="youtube-video"
-            title="youtube video"
-            src="https://www.youtube.com/embed/7e90gBu4pas?enablejsapi=1&version=3&playerapiid=ytplayer"
-            allowFullScreen
-          ></iframe>
-        </div>
+        <img src="img/myProjects/layer_java_P8.gif" alt="Portolio" />
         {/* Main Project Content Ends */}
       </figure>
     </div>

@@ -61,17 +61,14 @@ const ModalThreeContent = () => {
         {/* Project Details Ends */}
 
         {/*  Main Project Content Starts */}
-        <Slider {...settings}>
-          <div className="slide_item">
-            <img src="img/projects/project-3.jpg" alt="slide 1" />
-          </div>
-          <div className="slide_item">
-            <img src="img/projects/project-2.jpg" alt="slide 1" />
-          </div>
-          <div className="slide_item">
-            <img src="img/projects/project-1.jpg" alt="slide 1" />
-          </div>
-        </Slider>
+        <div className="videocontainer">
+          <iframe
+              className="youtube-video"
+              title="youtube video"
+              src="https://www.youtube.com/embed/eDOTxMPY188?enablejsapi=1&version=3&playerapiid=ytplayer"
+              allowFullScreen
+          ></iframe>
+        </div>
         {/* Main Project Content Ends */}
       </figure>
     </div>

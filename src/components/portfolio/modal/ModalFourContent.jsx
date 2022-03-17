@@ -50,14 +50,12 @@ const ModalFourContent = () => {
 
         {/*  Main Project Content Starts */}
         <div className="videocontainer">
-          <video
-            id="video"
-            className="responsive-video"
-            controls
-            poster="img/projects/project-1.jpg"
-          >
-            <source src="img/projects/video.mp4" type="video/mp4" />
-          </video>
+          <iframe
+              className="youtube-video"
+              title="youtube video"
+              src="https://www.youtube.com/embed/pcDy7ehDAJ0?enablejsapi=1&version=3&playerapiid=ytplayer"
+              allowFullScreen
+          ></iframe>
         </div>
         {/* Main Project Content Ends */}
       </figure>

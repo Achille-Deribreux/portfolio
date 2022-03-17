@@ -49,7 +49,14 @@ const ModalOneContent = () => {
         {/* Project Details Ends */}
 
         {/*  Main Project Content Starts */}
-        <img src="img/projects/project-1.jpg" alt="Portolio" />
+        <div className="videocontainer">
+          <iframe
+              className="youtube-video"
+              title="youtube video"
+              src="https://www.youtube.com/embed/8sO4HL1L-UQ?enablejsapi=1&version=3&playerapiid=ytplayer"
+              allowFullScreen
+          ></iframe>
+        </div>
         {/* Main Project Content Ends */}
       </figure>
     </div>
