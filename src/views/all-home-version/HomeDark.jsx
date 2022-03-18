@@ -4,8 +4,6 @@ import Hero from "../../components/hero/Hero";
 import Index from "../../components/about/index";
 import Address from "../../components/Address";
 import Portfolio from "../../components/portfolio/Portfolio";
-import Blog from "../../components/blog/Blog";
-import Contact from "../../components/Contact";
 import Social from "../../components/Social";
 
 const menuItem = [
@@ -23,7 +21,7 @@ const HomeDark = () => {
           <TabList className=" icon-menu  revealator-slideup revealator-once revealator-delay1">
             {menuItem.map((item, i) => (
               <Tab className="icon-box" key={i}>
-                <i className={`fa ${item.icon}`}></i>
+                <i className={`fa ${item.icon}`}/>
                 <h2>{item.menuName}</h2>
               </Tab>
             ))}
@@ -39,7 +37,7 @@ const HomeDark = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <div className="color-block d-none d-lg-block"></div>
+              <div className="color-block d-none d-lg-block"/>
               <Hero />
             </div>
           </TabPanel>
@@ -132,7 +130,7 @@ const HomeDark = () => {
           {/* Contact Content Ends */}
 
           {/* Blog Content Starts */}
-          <TabPanel className="blog">
+          {/* <TabPanel className="blog">
             <div
               className="title-section text-left text-sm-center "
               data-aos="fade-up"
@@ -152,9 +150,9 @@ const HomeDark = () => {
               {/*  Articles Starts  */}
               {/* Articles Ends */}
             </div>
-          </TabPanel>
+        {/* </TabPanel>
           {/* Blog Content Ends */}
-        </div>
+        {/*</div>*/}
       </Tabs>
     </div>
   );

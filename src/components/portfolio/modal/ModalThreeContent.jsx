@@ -1,17 +1,16 @@
 import React from "react";
-import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const ModalThreeContent = () => {
-  var settings = {
+  {/*var settings = {
     dots: true,
     infinite: false,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     draggable: false,
-  };
+  };*/}
 
   return (
     <div className="slideshow">
