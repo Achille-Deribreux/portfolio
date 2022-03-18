@@ -3,7 +3,7 @@ import Modal from "react-modal";
 import Index from "../../components/about/index";
 
 const heroContent = {
-  heroImage: "img/hero/dark.jpg",
+  heroImage: "img/pdp.jpg",
   heroMobileImage: "img-mobile",
   heroTitleName: "Achille Deribreux",
   heroDesignation: "JAVA & Spring DEVELOPER",
@@ -22,21 +22,21 @@ const Hero = () => {
   return (
     <>
       <div className="row home-details-container align-items-center">
-        <div
+        {/* <div
           className="col-lg-4 bg position-fixed d-none d-lg-block"
           style={{
             backgroundImage: `url(${
               process.env.PUBLIC_URL + heroContent.heroImage
             })`,
           }}
-        ></div>
-        <div className="col-12 col-lg-8 offset-lg-4 home-details  text-center text-lg-start">
+        ></div>*/}
+        <div className="col-12 col-lg-6 offset-lg-4 home-details  text-center text-lg-start">
           <div>
-            <img
+            {/*<img
               src={`img/hero/${heroContent.heroMobileImage}.jpg`}
               className="img-fluid main-img-mobile d-sm-block d-lg-none"
               alt="hero man"
-            />
+            />*/}
             <h1 className="text-uppercase poppins-font">
               I'm {heroContent.heroTitleName}.
               <span>{heroContent.heroDesignation}</span>

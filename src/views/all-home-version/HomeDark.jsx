@@ -18,11 +18,6 @@ const menuItem = [
 const HomeDark = () => {
   return (
     <div className="yellow">
-      <div className="demo-sticker">
-        <a href="/home-light">
-          <i className="fa fa-lightbulb-o" aria-hidden="true"></i>
-        </a>
-      </div>
       <Tabs>
         <div className="header">
           <TabList className=" icon-menu  revealator-slideup revealator-once revealator-delay1">
@@ -109,14 +104,13 @@ const HomeDark = () => {
             >
               <div className="row">
                 {/*  Left Side Starts */}
-                <div className="col-12 col-lg-4">
+                <div className="col-12">
                   <h3 className="text-uppercase custom-title mb-0 ft-wt-600 pb-3">
                     Don't be shy !
                   </h3>
                   <p className="open-sans-font mb-4">
                     Feel free to get in touch with me. I am always open to
-                    discussing new projects, creative ideas or opportunities to
-                    be part of your visions.
+                    discussing new projects.
                   </p>
                   <Address />
                   {/* End Address */}
@@ -126,10 +120,10 @@ const HomeDark = () => {
                 </div>
                 {/* Left Side Ends */}
 
-                {/*  Contact Form Starts  */}
+                {/*  Contact Form Starts
                 <div className="col-12 col-lg-8">
                   <Contact />
-                </div>
+                </div>*/}
                 {/*  Contact Form Ends */}
               </div>
             </div>

@@ -23,7 +23,7 @@ const index = () => {
 
               <div className="col-12 d-block d-sm-none">
                 <img
-                  src="img/hero/img-mobile.jpg"
+                  src="img/pdp.jpg"
                   className="img-fluid main-img-mobile"
                   alt="about avatar"
                 />
@@ -36,10 +36,10 @@ const index = () => {
               {/* End personal info */}
 
               <div className="col-12 mt-1">
-                <a className="button" href="img/cv.webp" download>
+                {/* <a className="button" href="img/cv.webp" download>
                   <span className="button-text">Download CV</span>
                   <span className="button-icon fa fa-download"></span>
-                </a>
+                </a>*/}
               </div>
               {/* End download button */}
             </div>

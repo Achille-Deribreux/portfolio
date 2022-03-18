@@ -49,7 +49,14 @@ const ModalEightContent = () => {
         {/* Project Details Ends */}
 
         {/*  Main Project Content Starts */}
-        <img src="img/myProjects/layer_web_P7.png" alt="Portolio" />
+        <div className="videocontainer">
+          <iframe
+              className="youtube-video"
+              title="youtube video"
+              src="https://www.youtube.com/embed/5WbMOepvJXw?enablejsapi=1&version=3&playerapiid=ytplayer"
+              allowFullScreen
+          ></iframe>
+        </div>
         {/* Main Project Content Ends */}
       </figure>
     </div>
