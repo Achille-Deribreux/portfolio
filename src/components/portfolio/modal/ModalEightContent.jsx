@@ -49,7 +49,7 @@ const ModalEightContent = () => {
         {/* Project Details Ends */}
 
         {/*  Main Project Content Starts */}
-        <img src="img/projects/project-8.jpg" alt="Portolio" />
+        <img src="img/myProjects/layer_web_P7.png" alt="Portolio" />
         {/* Main Project Content Ends */}
       </figure>
     </div>

@@ -49,7 +49,7 @@ const ModalSixContent = () => {
         {/* Project Details Ends */}
 
         {/*  Main Project Content Starts */}
-        <img src="img/projects/project-6.jpg" alt="Portolio" />
+        <img src="img/myProjects/layer_java_P4.png" alt="Portolio" />
         {/* Main Project Content Ends */}
       </figure>
     </div>

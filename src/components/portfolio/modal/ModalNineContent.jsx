@@ -49,7 +49,7 @@ const ModalNineContent = () => {
         {/* Project Details Ends */}
 
         {/*  Main Project Content Starts */}
-        <img src="img/projects/project-9.jpg" alt="Portolio" />
+        <img src="img/myProjects/layer_web_P6.png" alt="Portolio" />
         {/* Main Project Content Ends */}
       </figure>
     </div>

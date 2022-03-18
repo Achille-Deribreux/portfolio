@@ -49,7 +49,7 @@ const ModalTwoContent = () => {
         {/* Project Details Ends */}
 
         {/*  Main Project Content Starts */}
-        <img src="img/myProjects/layer_java_P8.gif" alt="Portolio" />
+        <img src="img/myProjects/layer_java_P8.png" alt="Portolio" />
         {/* Main Project Content Ends */}
       </figure>
     </div>

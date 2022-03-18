@@ -70,7 +70,7 @@ const Portfolio = () => {
               data-aos-delay="0"
             >
               <figure onClick={toggleModalOne}>
-                <img src="/img/myProjects/layer_java_P9.gif" alt="Portolio" />
+                <img src="/img/myProjects/layer_java_P9.png" alt="Portolio" />
                 <div className=" hover-content-wrapper">
                   <span className="content-title">Mediscreen Project</span>
                 </div>
@@ -107,7 +107,7 @@ const Portfolio = () => {
               data-aos-delay="100"
             >
               <figure onClick={toggleModalTwo}>
-                <img src="img/myProjects/layer_java_P8.gif" alt="Portolio" />
+                <img src="img/myProjects/layer_java_P8.png" alt="Portolio" />
                 <div className=" hover-content-wrapper">
                   <span className="content-title"> Tourguide Project</span>
                 </div>
@@ -144,7 +144,7 @@ const Portfolio = () => {
               data-aos-delay="200"
             >
               <figure onClick={toggleModalThree}>
-                <img src="/img/myProjects/layer_java_P7.gif" alt="Portolio" />
+                <img src="/img/myProjects/layer_java_P7.png" alt="Portolio" />
                 <div className=" hover-content-wrapper">
                   <span className="content-title"> Poseiden Project</span>
                 </div>
@@ -226,7 +226,7 @@ const Portfolio = () => {
                 className="direction-reveal__card"
                 onClick={toggleModalFive}
               >
-                <img src="img/projects/project-5.jpg" alt="Portolio" />
+                <img src="img/myProjects/layer_java_P5.png" alt="Portolio" />
                 <div className=" hover-content-wrapper">
                   <span className="content-title"> Safetynet alerts Project</span>
                 </div>
@@ -267,9 +267,9 @@ const Portfolio = () => {
                 className="direction-reveal__card"
                 onClick={toggleModalSix}
               >
-                <img src="img/projects/project-6.jpg" alt="Portolio" />
+                <img src="img/myProjects/layer_java_P4.png" alt="Portolio" />
                 <div className=" hover-content-wrapper">
-                  <span className="content-title"> Parkit Project</span>
+                  <span className="content-title"> Park'it Project</span>
                 </div>
               </figure>
 
@@ -308,7 +308,7 @@ const Portfolio = () => {
                 className="direction-reveal__card"
                 onClick={toggleModalSeven}
               >
-                <img src="img/projects/project-7.jpg" alt="Portolio" />
+                <img src="img/myProjects/layer_java_P2.png" alt="Portolio" />
                 <div className=" hover-content-wrapper">
                   <span className="content-title">Hemebiotech project</span>
                 </div>
@@ -349,10 +349,10 @@ const Portfolio = () => {
                 className="direction-reveal__card"
                 onClick={toggleModalEight}
               >
-                <img src="img/projects/project-8.jpg" alt="Portolio" />
+                <img src="img/myProjects/layer_web_P7.png" alt="Portolio" />
 
                 <div className=" hover-content-wrapper">
-                  <span className="content-title">groupomania project</span>
+                  <span className="content-title">Groupomania project</span>
                 </div>
               </figure>
               {/* Start ModalEightContent */}
@@ -390,7 +390,7 @@ const Portfolio = () => {
                 className="direction-reveal__card"
                 onClick={toggleModalNine}
               >
-                <img src="img/projects/project-9.jpg" alt="Portolio" />
+                <img src="img/myProjects/layer_web_P6.png" alt="Portolio" />
                 <div className=" hover-content-wrapper">
                   <span className="content-title">piquante projetct</span>
                 </div>
