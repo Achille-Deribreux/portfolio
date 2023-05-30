@@ -11,13 +11,19 @@ const educationContent = [
     year: "2021",
     degree: "Diploma of Higher Education.",
     institute: "OPENCLASSROOMS",
-    details: `RNCP level 5 title in web development, I learned to use html, css, sass, javascript as well as nodejs and react`,
+    details: `RNCP level 5 title in web development, through 7 projects I learned to use html, css, sass, javascript as well as nodejs and react`,
   },
   {
     year: "2018-2021",
     degree: "BACHELOR DEGREE ",
     institute: "EPHEC BRUSSELS",
-    details: `Bachelor in e-business, through 7 projects I have learned basics of programmation, marketing, data, website creation economics, ...`,
+    details: `Bachelor in e-business, where I have learned basics of programmation, marketing, data, website creation economics, ...`,
+  },
+  {
+    year: "2012-2018",
+    degree: "BACCALAUREATE  DEGREE ",
+    institute: "IND",
+    details: `General baccalaureate, economics option`,
   },
 ];
 

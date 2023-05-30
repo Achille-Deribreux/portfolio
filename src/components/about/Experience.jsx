@@ -2,10 +2,16 @@ import React from "react";
 
 const experienceContent = [
   {
-    year: "   2021 - 2022",
-    position: " Developer",
-    compnayName: "OpenClassrooms",
-    details: `  Realization of 17 school projects in different languages in order to obtain 2 degrees .`,
+    year: "NOV 2022 - TODAY",
+    position: "Java Developer",
+    compnayName: "Ixor",
+    details: `  Java/Spring consultant at Securex working in a microservices environment with Java 8-11-17, Spring boot, Spock, Nexus/Bamboo, Bitbucket, ...`,
+  },
+  {
+    year: "APR 2022 - NOV 2022",
+    position: "Java Developer",
+    compnayName: "Sopra Steria",
+    details: `  Java/Spring backend developer on a public sector project with Java 11, Spring boot, Junit, Gitlab, ...`,
   },
   {
     year: "2020 - 2022",

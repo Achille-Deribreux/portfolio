@@ -1,9 +1,9 @@
 import React from "react";
 
 const skillsContent = [
-  { skillClass: "p60", skillPercent: "60", skillName: "REACT" },
-  { skillClass: "p80", skillPercent: "80", skillName: "SPRING" },
-  { skillClass: "p75", skillPercent: "75", skillName: "JAVA" },
+  { skillClass: "p40", skillPercent: "40", skillName: "ANGULAR/REACT" },
+  { skillClass: "p85", skillPercent: "85", skillName: "SPRING" },
+  { skillClass: "p80", skillPercent: "80", skillName: "JAVA" },
   { skillClass: "p100", skillPercent: "100", skillName: "MOTIVATION" }
 ];
 

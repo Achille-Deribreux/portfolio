@@ -9,7 +9,6 @@ import Social from "../../components/Social";
 const menuItem = [
   { icon: "fa-home", menuName: "Home" },
   { icon: "fa-user", menuName: "About" },
-  { icon: "fa-briefcase", menuName: "Portfolio" },
   { icon: "fa-envelope-open", menuName: "Contact" },
 ];
 
@@ -58,8 +57,8 @@ const HomeDark = () => {
           </TabPanel>
           {/* About Content Ends */}
 
-          {/* Portfolio Content Starts */}
-          <TabPanel className="portfolio professional">
+          {/* Portfolio Content Starts
+        /*  <TabPanel className="portfolio professional">
             <div
               className="title-section text-left text-sm-center"
               data-aos="fade-up"
@@ -70,7 +69,7 @@ const HomeDark = () => {
               </h1>
               <span className="title-bg">works</span>
             </div>
-            {/* End title */}
+
             <div
               className="container grid-gallery main-content"
               data-aos="fade-up"
@@ -79,7 +78,6 @@ const HomeDark = () => {
             >
               <Portfolio />
             </div>
-            {/* End grid gallery */}
           </TabPanel>
           {/* Portfolio Content Ends */}
 
