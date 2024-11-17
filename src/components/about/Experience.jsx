@@ -2,10 +2,16 @@ import React from "react";
 
 const experienceContent = [
   {
-    year: "NOV 2022 - TODAY",
+    year: "JAN 2024 - TODAY",
+    position: "Java Freelancer",
+    compnayName: "Achille Deribreux",
+    details: `  Java/Spring consultant at Securex/Ixor`,
+  },
+  {
+    year: "NOV 2022 - DEC 2023",
     position: "Java Developer",
     compnayName: "Ixor",
-    details: `  Java/Spring consultant at Securex working in a microservices environment with Java 8-11-17, Spring boot, Spock, Nexus/Bamboo, Bitbucket, ...`,
+    details: `  Java/Spring consultant at Securex working in a microservices environment with Java 8-11-17-21, Spring boot, Azure, Nexus/Bamboo, Atlassian, ...`,
   },
   {
     year: "APR 2022 - NOV 2022",

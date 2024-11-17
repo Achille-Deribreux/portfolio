@@ -46,17 +46,17 @@ const index = () => {
           </div>
           {/*  Personal Info Ends */}
 
-          {/*  Boxes Starts */}
+          {/*
           <div className="col-xl-6 col-lg-7 col-12 mt-5 mt-lg-0">
             <Achievements />
           </div>
-          {/* Achievements Ends */}
+          */}
         </div>
         {/* End .row */}
 
         <hr className="separator" />
 
-        {/* Skills Starts */}
+        {/* Skills Starts
         <div className="row">
           <div className="col-12">
             <h3 className="text-uppercase pb-4 pb-sm-5 mb-3 mb-sm-0 text-left text-sm-center custom-title ft-wt-600">
@@ -65,7 +65,7 @@ const index = () => {
           </div>
           <Skills />
         </div>
-        {/* Skills Ends */}
+        Skills Ends */}
 
         <hr className="separator mt-1" />
 
