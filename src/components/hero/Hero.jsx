@@ -6,7 +6,7 @@ const heroContent = {
   heroImage: "img/pdp.jpg",
   heroMobileImage: "img-mobile",
   heroTitleName: "Achille Deribreux",
-  heroDesignation: "JAVA & Spring DEVELOPER",
+  heroDesignation: "JAVA Freelance DEVELOPER",
   heroDescriptions: `I'm a Belgian based java developer focused on
   spring, I am passionate about
   building excellent code and creating applications that can improve processes of companies.`,
